@@ -1,38 +1,78 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Research</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/research.html">Research</a></li>
-        		<li><a href="/teaching.html">Teaching</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-  <p><a href="CV.pdf">Here's my CV (Updated November 2022).</a></p>
-  <p>I'm working with the Applied Analysis Group at UCSB, under the supervision of Carlos Garcia-Cervera. I do research in:
-	<p><li>Calculus of Variations</li>
-	<li>Partial Differential Equations</li>
-	<li>Applications to Quantum Chemistry</li>
-	<li>Numerical Methods in Electronic Structure Problems</li>
-	<li>Numerical Methods in Quantum Mathematics</li></p>
-	  
-	  <p></li>Publications.</li>
-		<p><li>M.A. Moreles, R.A. Lainez, Mathematical Modelling of Fractional Order
-			Circuit Elements and Bioimpedance Applications, Communications in
-			Nonlinear Science and Numerical Simulation, 2016</li>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:raan.lare@math.ucsb.edu">email</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research & Publications | Rafael Antonio Lainez Reyes</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Load Header & Footer scripts -->
+    <script src="js/header.js" defer></script>
+    <script src="js/footer.js" defer></script>
+</head>
+<body>
+
+    <site-header></site-header>
+
+    <main class="container">
+        <h1>Research & Publications</h1>
+        <p class="section-intro">Mathematical modeling, scientific computing, numerical analysis, and electronic structure calculations.</p>
+
+        <!-- Research Interests Card -->
+        <section class="project-card research-focus">
+            <div class="entry-header">
+                <h2>Research Interests & Focus Areas</h2>
+            </div>
+            <ul class="skills-list">
+                <li>Numerical Methods for High-Performance Computing and Differential Equations</li>
+                <li>Error Analysis, Guaranteed Bounds, and Control for Electronic Structure Models</li>
+                <li>Bayesian Methods, Parameter Estimation, and Inverse Problems</li>
+                <li>Partial Differential Equations, Calculus of Variations, and Optimization</li>
+            </ul>
+        </section>
+
+        <!-- Publications Section -->
+        <section class="publications-section">
+            <h2>Publications & Preprints</h2>
+
+            <article class="timeline-entry">
+                <div class="entry-header">
+                    <h2>Diagonalization of the Landau Hamiltonian with a Periodic Potential via a Galerkin Projection Method and Applications to Topological Band Properties</h2>
+                    <span class="date">2026</span>
+                </div>
+                <div class="institution">H. P. Büchler, <strong>R. A. Laínez Reyes</strong>, B. Stamm</div>
+                <p class="sub-detail">
+                    <em>Preprint</em> • 
+                    <a href="https://arxiv.org/abs/2608.19940" target="_blank" rel="noopener noreferrer">arXiv:2608.19940</a>
+                </p>
+            </article>
+
+            <article class="timeline-entry">
+                <div class="entry-header">
+                    <h2>Fully Guaranteed and Computable Error Bounds on the Energy for Periodic Kohn–Sham Equations with Convex Density Functionals</h2>
+                    <span class="date">2025</span>
+                </div>
+                <div class="institution">A. Bordignon, E. Cancès, G. Dusson, G. Kemlin, <strong>R. A. Laínez Reyes</strong>, B. Stamm</div>
+                <p class="sub-detail">
+                    <em>SIAM Journal on Scientific Computing</em> • 
+                    <a href="https://doi.org/10.1137/25M1735676" target="_blank" rel="noopener noreferrer">DOI: 10.1137/25M1735676</a>
+                </p>
+            </article>
+
+            <article class="timeline-entry">
+                <div class="entry-header">
+                    <h2>Mathematical Modeling of Fractional Order Circuit Elements and Bioimpedance Applications</h2>
+                    <span class="date">2017</span>
+                </div>
+                <div class="institution">M. A. Moreles V., <strong>R. A. Laínez Reyes</strong></div>
+                <p class="sub-detail">
+                    <em>Communications in Nonlinear Science and Numerical Simulation</em> • 
+                    <a href="https://doi.org/10.1016/j.cnsns.2016.10.020" target="_blank" rel="noopener noreferrer">DOI: 10.1016/j.cnsns.2016.10.020</a>
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <site-footer></site-footer>
+
+</body>
 </html>

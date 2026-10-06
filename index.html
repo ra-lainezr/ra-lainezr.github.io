@@ -1,34 +1,37 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Rafael Lainez Reyes</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/research.html">Research</a></li>
-        		<li><a href="/teaching.html">Teaching</a></li>
-				<li><a href="/outreach.html">Outreach</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Rafael Lainez</h1>
-			<img src="profile pic.jpg" alt="Me" class="center" width="295" height="420"> 
-				<p>I'm a sixth year Applied Mathematics PhD student at University of California, Santa Barbara.</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Antonio Lainez Reyes | Applied Mathematics</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Shared Web Components -->
+    <script src="js/header.js" defer></script>
+    <script src="js/footer.js" defer></script>
+</head>
+<body>
 
-  <p>My office is in South Hall, Room 6432Q.</p>
-					
-			<p><a href="CV.pdf">Here's my CV.</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:raan.lare@math.ucsb.edu">email</a></li>
-			</ul>
-		</footer>
-	</body>
+    <site-header></site-header>
+
+    <main class="container">
+        <section class="profile-card">
+            <div class="avatar-wrap">
+                <img src="profile_picture.jpg" alt="Rafael Antonio Lainez Reyes" class="profile-img" width="200" height="260">
+            </div>
+
+            <div class="bio-content">
+                <h1>Rafael A. Lainez Reyes, Ph.D.</h1>
+                <p class="subtitle">Applied Mathematician</p>
+                <p class="sub-discipline">Modeling, Simulation &amp; Scientific Computing</p>
+
+                <p class="bio-text">
+                    I hold a Ph.D. in Mathematics from the University of California, Santa Barbara. I develop mathematical models and high-performance numerical algorithms for scientific computing, specializing in electronic structure methods and computational quantum mechanics.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <site-footer></site-footer>
+
+</body>
 </html>
